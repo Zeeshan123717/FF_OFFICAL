@@ -3,24 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Free Fire Top-up | Zeeshan</title>
+    <title>Free Fire Dealer</title>
     <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            font-family: Arial, sans-serif;
-        }
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+        
         body {
-            background: url('1.jpg') no-repeat center center/cover;
-            height: 100vh;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
+            font-family: 'Poppins', sans-serif;
+            background: url('background.jpg') no-repeat center center fixed;
+            background-size: cover;
             text-align: center;
-            position: relative;
+            color: white;
+            padding: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
         }
+
         .overlay {
             position: absolute;
             top: 0;
@@ -30,42 +30,66 @@
             background: rgba(0, 0, 0, 0.6);
             backdrop-filter: blur(5px);
         }
-        .content {
+
+        .container {
             position: relative;
-            color: white;
-            z-index: 2;
-            padding: 20px;
+            max-width: 350px;
+            width: 90%;
+            background: rgba(0, 0, 0, 0.8);
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
+            z-index: 1;
         }
-        .btn {
-            display: inline-block;
-            margin-top: 20px;
-            padding: 10px 20px;
-            background: #25D366;
+
+        h1 {
+            margin-bottom: 10px;
+            font-size: 20px;
+            font-weight: 600;
+        }
+
+        .emoji {
+            font-size: 30px;
+            margin-bottom: 10px;
+        }
+
+        .whatsapp-btn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #25D366;
             color: white;
+            padding: 12px;
+            font-size: 16px;
+            font-weight: 500;
             text-decoration: none;
-            font-size: 18px;
-            border-radius: 5px;
+            border-radius: 8px;
+            width: 100%;
+            max-width: 280px;
+            margin: 0 auto;
+            transition: 0.3s;
+            gap: 8px;
         }
-        .about {
-            margin-top: 20px;
-            font-size: 14px;
-            background: rgba(0, 0, 0, 0.7);
-            padding: 10px;
-            border-radius: 5px;
+
+        .whatsapp-btn img {
+            width: 24px;
+            height: 24px;
+        }
+
+        .whatsapp-btn:hover {
+            background-color: #1da851;
         }
     </style>
 </head>
 <body>
     <div class="overlay"></div>
-    <div class="content">
-        <h1>Free Fire Trusted  Dealer</h1>
-        <a class="btn" href="https://wa.me/+923088096050" target="_blank"> For Detail</a>
-        <div class="about">
-            <p>Agar aap Free Fire ke trusted diamonds ya top-up dealer Zeeshan ke baare mein jaanna chahte hain, toh yeh ek certified aur reliable seller hai jo safe aur fast transactions provide karta hai. ✅💎</p>
-            <p>Zeeshan ek certified Free Fire dealer hai jo players ko genuine aur secure top-ups aur in-game items deliver karta hai. Uske paas Free Fire ke official certification hai, jo proof hai ki wo ek trusted seller hai.</p>
-            <p>Agar aapko diamonds, elite pass, gun skins ya bundles buy karne hain, toh Zeeshan ek safe aur authentic option ho sakta hai. Hamesha certified dealers se hi purchase karein taake scams aur frauds se bachein.</p>
-            <p>For more details ya purchase ke liye, aap Zeeshan se direct contact kar sakte hain! 🔥🎮💰</p>
-        </div>
+    <div class="container">
+        <h1>WhatsApp: 03046576205</h1>
+        <div class="emoji">👇🏼👇🏼👇🏼👇🏼👇🏼👇🏼</div>
+        <a class="whatsapp-btn" href="https://wa.me/message/2MKM7LQYZPLFH1" target="_blank">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp Logo">
+            Chat on WhatsApp
+        </a>
     </div>
 </body>
 </html>
